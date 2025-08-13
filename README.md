@@ -1,4 +1,4 @@
-# Indian Kids Screentime Analytics Dashboard 📊
+# Indian Kids Screen Time Analytics Dashboard 📊
 
 Interactive dashboard analyzing screen time patterns and health impacts among Indian children, with demographic breakdowns by age, gender, and residence area.
 
@@ -9,14 +9,15 @@ This comprehensive analytics dashboard examines digital wellness among Indian ch
 ## 📁 Repository Structure
 
 ```
-indian-kids-screentime-dashboard/
-├── data/
-│   ├── raw/                    # Original dataset
-│   └── processed/              # Cleaned and transformed data
-├── dashboard/                  # Dashboard files
-├── analysis/                   # Data analysis scripts
-├── docs/                       # Documentation
-└── README.md
+indian-kids-screentime-analytics/
+├── dashboard-images/           # Dashboard screenshots and visualizations
+├── README.md                   # Project documentation
+├── clean-data.xlsx            # Processed and transformed dataset
+├── complete-analytics.xlsx    # Comprehensive analysis workbook
+│                             # (Contains: original data, cleaned data, 
+│                             #  planning sheets, pivot tables, dashboard)
+├── original-data.xlsx         # Raw dataset before transformation
+└── project-overview.pdf       # Detailed project documentation
 ```
 
 ## 🔧 Data Transformation Process
@@ -145,11 +146,24 @@ The dashboard enables comprehensive health impact assessment:
 
 ## 🚀 Getting Started
 
-1. Clone the repository
-2. Review the data transformation documentation
-3. Load the cleaned dataset into your preferred dashboard tool
-4. Configure filters and visualizations as per the dashboard plan
-5. Begin analysis using the structured insights framework
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/yourusername/indian-kids-screentime-dashboard.git
+   ```
+
+2. **Explore the data files:**
+   - `original-data.xlsx` - Review the raw dataset
+   - `clean-data.xlsx` - Examine the transformed data
+   - `complete-analytics.xlsx` - View the full analysis including pivot tables and dashboard
+
+3. **Review documentation:**
+   - `project-overview.pdf` - Detailed project methodology and insights
+   - `dashboard-images/` - Visual screenshots of the dashboard components
+
+4. **Analyze the dashboard:**
+   - Open `complete-analytics.xlsx` to interact with the live dashboard
+   - Use the pivot tables to explore different data perspectives
+   - Apply filters to analyze specific demographic segments
 
 ## 📈 Future Enhancements
 
